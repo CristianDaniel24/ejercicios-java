@@ -68,7 +68,7 @@ public class carritoCompras {
     public static void addItem(ArrayList<String> itemNames, ArrayList<String> carrito) {
         Scanner leer = new Scanner(System.in);
         int cant = 0;
-        System.out.println("Los productos de la tienda Clancy son: ");
+        System.out.println("Los productos de la tienda Clancy son:");
         for (int i = 0; i < itemNames.size(); i++) {
             System.out.println(itemNames.get(i));
         }
